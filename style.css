@@ -1,0 +1,240 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  /* min-height: 1900px; */
+}
+
+.container{
+  width: 100%;
+}
+
+.navbar{
+  margin: 32px 0 32px 64px;
+}
+
+.navbar ul{
+  display: flex;
+  justify-content: flex-end;
+  height: 80px;
+}
+
+.navbar ul li{
+  list-style: none;
+  margin-left: 16px;
+  margin-top: -32px;
+  margin-right: 32px;
+}
+
+.navbar ul li a{
+  color: #999999;
+  font-weight: 500;
+}
+
+.navbar ul li a:hover{
+  color: #000000;
+}
+
+.navbar ul li a.active{
+  color: #000000;
+}
+
+.content{
+  display: flex;
+}
+
+.content .header{
+  margin-top: 64px;
+  margin-left: 64px;
+  margin-right: 36px;
+}
+
+.content .header h1{
+  font-size: 44px;
+  font-weight: 600;
+}
+
+.content .header p{
+  margin-top: 8px;
+  font-size: 18px;
+  color: #999999;
+}
+
+.content .img-content img{
+  margin-top: -80px;
+  width: 680px;
+  height: 700px;
+}
+
+.content .keterangan{
+  margin-left: 64px;
+  margin-top: 42px;
+}
+
+.content .keterangan .angka{
+  font-size: 32px;
+  display: flex;
+}
+
+.content .keterangan .angka h4{
+  font-weight: 500;
+}
+
+
+.content .keterangan .angka h4 span{
+  color: #8080FF;
+}
+
+.content .keterangan .angka h4.dua{
+  margin-left: 48px;
+}
+
+.content .keterangan .detail{
+  display: flex;
+  color: #999999;
+}
+
+.content .keterangan .detail p.success{
+  margin-left: 16px;
+}
+
+.content .keterangan .detail p.transactions{
+  margin-left: 40px;
+}
+
+.content .location{
+  margin-left: 64px;
+  margin-top: 42px;
+}
+
+.content .location p{
+  color: #999999;
+}
+
+.content .location .detail{
+  margin-top: 8px;
+  width: 438px;
+  height: 50px;
+  background-color: #F7F7F9;
+}
+
+.content .location .detail p{
+  color: #000000;
+  padding-left: 16px;
+  padding-top: 11px;
+  padding-bottom: 12px;
+}
+
+.content .button{
+  margin-top: 24px;
+  margin-left: 64px;
+  background-color: #FF9376;
+  width: 170px;
+  height: 50px;
+}
+
+.content .button:hover{
+  background-color: #fab7a5;
+}
+
+
+.content .button a p{
+  color: white;
+  padding-left: 35px;
+  padding-right: 30px;
+  line-height: 50px;
+}
+
+.brand{
+  margin: 64px 64px 64px 100px;
+}
+
+.detail .title{
+  margin: 64px auto 32px;
+  text-align: center;
+}
+
+.detail .title h3{
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.detail .title p{
+  margin-top: 8px;
+  color: #999999;
+  font-size: 18px;
+}
+
+.item{
+  margin-left: 80px;
+  display: flex;
+}
+
+.item .image.dua{
+  margin-left: 30px;
+}
+
+.item .image img{
+  width: 250px;
+  height: 250px;
+}
+
+.item .image h4{
+  font-size: 20px;
+  margin-top: 8px;
+}
+
+.item .image p{
+  margin-top: 4px;
+  font-size: 18px;
+  color: #999999;
+}
+
+.community{
+  background-color: #F6F8FC;
+  margin-left: 0px;
+  margin-top: 64px;
+  display: flex;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.community .text-title{
+  margin-left: 64px;
+  flex: 3;
+  margin-right: 32px;
+}
+
+.community .image{
+  flex: 1;
+}
+
+.community .image img{
+  margin-left: 0;
+  margin-right: 16px;
+}
+
+.community .text-title h2{
+  font-size: 36px;
+}
+
+.community .text-title .download{
+  display: flex;
+  margin-top: 16px;
+}
+
+.community .text-title .download img.dua{
+  margin-left: 16px;
+}
+
+
+.community .text-title p{
+  margin-top: 8px;
+  font-size: 18px;
+  color: #999999;
+}
